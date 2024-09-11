@@ -20,11 +20,11 @@ export const Libro = ({ libro,addToCart }) => {
         </p>
         <div className='flex justify-center gap-2 flex-col items-center sm:flex-row sm:gap-7'>
           <p className='inline-block'>
-            Pag: <span className='paginas'>{libro.paginas}</span>
+            <span className="">Páginas:</span> <span className='paginas font-bold'>{libro.paginas}</span>
           </p>
-          <p className='inline-block'>
+          {/* <p className='inline-block'>
             Papel: <span className='papel'>{libro.papel}</span>
-          </p>
+          </p> */}
         </div>
         {/* <p className='font-bold text-2xl text-center mt-2 mb-2'>
           S/ <span className='precio'>{libro.precio}</span>

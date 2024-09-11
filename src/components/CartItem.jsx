@@ -27,8 +27,8 @@ export const CartItem = ({
         <div className='flex-1'>
           <p className='text-normal font-bold text-blue-500'>{book.titulo}</p>
           <p>{book.autor}</p>
-          <p>Pag: {book.paginas}</p>
-          <p>Papel: {book.papel}</p>
+          <p>Pág: {book.paginas}</p>
+          {/* <p>Papel: {book.papel}</p> */}
           {/* <div className='flex items-center border-gray-100 bg-red'>
             <span className='rounded-l bg-gray-100 text-sm mr-2'>
               Cant:
